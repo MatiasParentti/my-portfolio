@@ -16,13 +16,13 @@ const Sections = () => {
                     <div className="home__data">
                         <h1 className="home__title">Hi,<br />I'am <span className="home__title-color">Matias</span><br /> Web Dev</h1>
 
-                        <a href="#" className="button">Contact</a>
+                        <a href="#contact" className="button">Contact</a>
                     </div>
 
                     <div className="home__social">
-                        <a href="https://www.linkedin.com/in/matias-parentti-7285a9226/" target="_blank" ><Icon icon="bx:bxl-linkedin" className="home__social-icon"/></a>
-                        <a href="mailto:matiparentti@gmail.com" target="_blank" className="home__social-icon"><Icon icon="bx:bx-mail-send"/></a>
-                        <a href="https://github.com/MatiasParentti?tab=repositories" target="_blank" className="home__social-icon"><Icon icon="bx:bxl-github" /></a>
+                        <a href="https://www.linkedin.com/in/matias-parentti-7285a9226/" target="_blank" rel="noreferrer" ><Icon icon="bx:bxl-linkedin" className="home__social-icon"/></a>
+                        <a href="mailto:matiparentti@gmail.com" target="_blank" rel="noreferrer" className="home__social-icon"><Icon icon="bx:bx-mail-send"/></a>
+                        <a href="https://github.com/MatiasParentti?tab=repositories" target="_blank" rel="noreferrer" className="home__social-icon"><Icon icon="bx:bxl-github" /></a>
                     </div>
 
                     <div className="home__img">
@@ -71,7 +71,7 @@ const Sections = () => {
                                 </div>
                             </div>
                             <div className="skills__data">
-                                <div class="skills__names">
+                                <div className="skills__names">
                                     <Icon icon="bx:bxl-css3" className='skills__icon' />
                                     <span className="skills__name">CSS3</span>
                                 </div>
@@ -122,7 +122,7 @@ const Sections = () => {
                                 </div>
                             </div>
                             <div className="skills__data">
-                                <div class="skills__names">
+                                <div className="skills__names">
 
                                     <Icon icon="bx:bxl-git" className='skills__icon' />
                                     <span className="skills__name">GIT</span>

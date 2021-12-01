@@ -2,6 +2,8 @@ import React from "react";
 import WorkCard from './WorkCard';
 import works from "./works-data";
 
+
+
 const Work = () => {
 
 
@@ -17,9 +19,9 @@ const Work = () => {
                 <div className="work__container bd-grid">
                     {
                         works.map(product => (
-
-                            <WorkCard key={product.id} product={product} />
-
+                            <div className="work_s">
+                                <WorkCard key={product.id} product={product} />
+                            </div>
                         ))
                     }
                 </div>

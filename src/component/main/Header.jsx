@@ -20,7 +20,7 @@ const Header = () => {
     const [show, setShow] = useState('nav__menu ')
     const [btn, setBtn] = useState('bx:bx-menu')
     const menuShow = () => {
-        if (btn == 'bx:bx-menu') {
+        if (btn === 'bx:bx-menu') {
             setShow('nav__menu show')
             setBtn('bx:bxs-chevron-right')
         } else {

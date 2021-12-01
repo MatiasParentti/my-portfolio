@@ -44,7 +44,7 @@ const Contact = () => {
                 <h2 className="section-title">Contact</h2>
 
                 <div className="contact__container bd-grid">
-                    <form onSubmit={handleSubmit(onSubmit)} action="" class="contact__form">
+                    <form onSubmit={handleSubmit(onSubmit)} action="" className="contact__form">
                         <span className="error">{errors.name?.message}</span>
                         <input type="text" placeholder="Name" name="name" className="contact__input"  {...register('name')} />
                         <span className="error">{errors.email?.message}</span>
