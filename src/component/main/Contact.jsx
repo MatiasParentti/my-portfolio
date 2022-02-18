@@ -43,7 +43,7 @@ const Contact = () => {
             <section className="contact section" id="contact">
                 <h2 className="section-title">Contact</h2>
 
-                <div className="contact__container bd-grid">
+                <div className="contact__container show-modal bd-grid">
                     <form onSubmit={handleSubmit(onSubmit)} action="" className="contact__form">
                         <span className="error">{errors.name?.message}</span>
                         <input type="text" placeholder="Name" name="name" className="contact__input"  {...register('name')} />
@@ -55,7 +55,7 @@ const Contact = () => {
                     </form>
                 </div>
 
-            </section>
+            </section> 
         </React.Fragment>
     )
 

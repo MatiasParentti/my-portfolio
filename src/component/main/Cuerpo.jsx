@@ -5,6 +5,7 @@ import ScrollReveal from "scrollreveal";
 import { Icon } from '@iconify/react';
 import { useEffect } from "react";
 
+
 const Cuerpo = () => {
 
     const sr = ScrollReveal({
@@ -49,12 +50,12 @@ const Cuerpo = () => {
             <Header></Header>
 
             <Sections></Sections>
-
+          
             <footer className="footer">
                 <p className="footer__title"></p>
                 <div
                     className="footer__social">
-                    <a href="#" className='
+                    <a href="https://es-es.facebook.com/parentti" target="_blank" rel="noreferrer" className='
             footer__icon'><Icon icon="bx:bxl-facebook" rel="noreferrer" /></a>
                     <a href="https://github.com/MatiasParentti?tab=repositories" target="_blank" rel="noreferrer" className='
             footer__icon'><Icon icon="bx:bxl-github" /></a>

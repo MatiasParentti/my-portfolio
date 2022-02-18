@@ -11,20 +11,23 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
     root: {
+
         maxWidth: 345,
     },
     buton: {
+        fontFamily: 'Inconsolata, monospace',
         background: '#1F6F8B',
         color: '#fff',
         display: ' inline-block',
         padding: '.50rem 1rem',
-        
+
         '&:hover': {
             boxShadow: '0 10px 36px rgba(0,0,0,.15)',
             color: '#1C2B2D',
         },
     },
     buton2: {
+        fontFamily: 'Inconsolata, monospace',
         marginLeft: 'auto',
         color: '#1C2B2D',
     },
@@ -32,6 +35,9 @@ const useStyles = makeStyles({
 
         padding: '1rem',
     },
+    typo: {
+        fontFamily: 'Inconsolata, monospace',
+    }
 });
 
 
@@ -50,10 +56,10 @@ export default function WorkCard({ product: { id, name, liveCode, source, image,
                     title={name}
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography className={classes.typo} gutterBottom variant="h5" component="h2">
                         {name}
                     </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
+                    <Typography className={classes.typo}  component="p">
                         {info}
                     </Typography>
                 </CardContent>

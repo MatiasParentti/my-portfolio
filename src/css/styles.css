@@ -1,5 +1,6 @@
-/*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+/*===== GOOGLE FONTS =====
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600;700&display=swap');
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
@@ -14,7 +15,7 @@
 
 /*===== Fuente y tipografia =====*/
 :root{
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Inconsolata', monospace;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
@@ -163,7 +164,7 @@ img{
 }
 .nav__logo{
   color: var(--second-color);
-  
+  font-size: 1.2rem;
 }
 .nav__toggle{
   color: var(--second-color);
@@ -314,25 +315,25 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 90%;
+  width: 100%;
 }
 .skills__css{
-  width: 85%;
+  width: 100%;
 }
 .skills__js{
-  width: 85%;
+  width: 100%;
 }
 .skills__react{
-  width: 65%;
+  width: 100%;
 }
 .skills__firebase{
-  width: 75%;
+  width: 100%;
 }
 .skills__git{
-  width: 80%;
+  width: 100%;
 }
 .skills__node{
-  width: 60%;
+  width:100%;
 }
 .skills__dicipline{
   width: 100%;
@@ -402,6 +403,8 @@ img{
   margin: 0 var(--mb-2)
 }
 
+
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
   body{
@@ -433,6 +436,7 @@ img{
   .nav__toggle{
     display: none;
   }
+  
   .nav__link{
     color: var(--second-color);
   }
@@ -494,4 +498,9 @@ img{
     right: 15%;
     bottom: 30%;
   }
+  .nav__logo{
+    font-size: 1.5rem;
+  }
+
 }
+
