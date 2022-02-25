@@ -23,7 +23,15 @@ const works = [
         source: 'https://github.com/MatiasParentti/app-agenda',
         image: "/img/agenda.png",
         info: 'web agenda online'
-    }
+    },
+     {
+        id: 4,
+        name: 'Pokedex',
+        liveCode: 'https://app-pokex.herokuapp.com/',
+        source: 'https://github.com/MatiasParentti/pokedex',
+        image: "/img/pok.png",
+        info: 'pokedex api'
+    },
 ]
 
 export default works
