@@ -1,7 +1,6 @@
 import React from "react";
-import WorkCard from './WorkCard';
 import works from "./works-data";
-
+import CardWork from "./CardWork";
 
 
 const Work = () => {
@@ -19,8 +18,8 @@ const Work = () => {
                 <div className="work__container bd-grid">
                     {
                         works.map(product => (
-                            <div className="work_s">
-                                <WorkCard key={product.id} product={product} />
+                            <div key={product.id} className="work_s">
+                                <CardWork  product={product} />
                             </div>
                         ))
                     }
